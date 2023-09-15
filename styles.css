@@ -1,0 +1,82 @@
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-feature-settings: "blwm"; */
+    font-weight: 400;
+    color: #FFFFFF;
+        
+}
+.text-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-weight: bold;
+    text-align: center;
+}
+
+*{
+    background-color:     #191970;
+    ;
+    ;
+}
+h1{
+    text-align: center;
+    color: rgb(25, 111, 209);
+    font-family: Arial Narrow Bold, sans-serif;
+    background-color:  rgb(28, 36, 146)
+    ;
+}
+/* Basic styling for the header */
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.link{
+    color: rgb(7, 139, 139);
+    font-family: cursive;
+}
+/* Reset some default styles for the footer */
+footer {
+    background-color: background #191970;
+    ; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px 0; /* Add padding for spacing */
+    text-align: center; /* Center align text and links */
+}
+
+/* Style the footer content */
+.footer-content {
+    
+    text-align: center;
+    font-size: large;
+}
+
+/* Style the footer links */
+.footer-content ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+}
+
+.footer-content ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
+
+/* Style the footer links */
+.footer-content ul li a {
+    color: #fff; /* Light text color for links */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Style the footer links on hover */
+.footer-content ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+.line{
+    
+        border-top: 3px dotted hwb(182 20% 20%);
+        border-radius: 2%;
+        border-bottom: 0.1px dashed hwb(182 20% 20%) ;
+}
+
